@@ -1,4 +1,11 @@
 /*globles*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
 .bg-main{
     background-color: #6C1835;
 }
@@ -11,73 +18,66 @@
 
 
 /*navbar*/
-.navbar{
-    padding: 0.5rem 1rem 0 1rem;
-}
-.nav-link{
-    margin-right: 2rem !important;
-    position: relative !important;
-    padding-bottom: 15px;
-    color: #b2a3a3 !important;
-}
-.nav-link::before{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: #c38ea0;
-    position: absolute;
-    left:  5px;
-    bottom: 0;
-    transition:width 3s;
-
-}
-
-.nav-link:hover {
-    color: #FFF !important;
-}
-.nav-link:hover::before{
-    content: '';
-    width: 90%;
-    height: 2px;
-    background-color: #c38ea0;
-    position: absolute;
-    left:  5px;
-    bottom: 0;
-}
 
 
-.active .nav-link::before{
-    content: '';
-    width: 90%;
-    height: 2px;
-    background-color: #c38ea0;
-    position: absolute;
-    left:  5px;
-    bottom: 0;
-}
 
-.navbar-brand,.active .nav-link {
-    color: #FFF !important;
-}
 
-.close-icon{
-    color: #FFF !important;
-}
-@media screen and (max-width:992px) {
-    .active .nav-link::before,
-    .nav-link:hover::before{
-        content: '';
-        width: 8%;
-        height: 2px;
-        background-color: #c38ea0;
-        position: absolute;
-        left:  0px;
-        bottom: 0;
-    }
-    
-}
 /*Home-header*/
 .home-header{
     background-color: red;
     height: 100vh;
+    
+}
+.carousel-indicators{
+    display: none;
+}
+.carousel,
+.carousel-inner,
+.img-fluid{
+    height: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    right:unset;
+    bottom: unset;
+    top: 30%;
+    left: 13%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: start;
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    bottom: unset;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+    cursor: pointer;
+    /* background-color: black !important; */
+}
+.carousel-control-prev{
+    top: 70%;
+    left: 13%;
+    bottom: unset;
+}
+.carousel-control-next{
+    top: 70%;
+    left: 17%;
+    bottom: unset;
 }
