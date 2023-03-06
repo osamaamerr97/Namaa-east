@@ -3,7 +3,7 @@
       <div class="container">
         <nav>
             <div class="logo">
-                <h2>Namaa</h2>
+                <img src="~/assets/images/logo.svg" style="width:140px" alt="" srcset="">
             </div>
             <div class="hamburger "  @click="toggleMenu" :class="{'toggle': isMenuOpen ==true}">
                 <div class="line1"></div>

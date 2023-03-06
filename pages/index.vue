@@ -1,6 +1,15 @@
 <template>
-
+<div>
 <div id="home-head" class="home-header">
+
+
+  <div class="head-content">
+    <div class="container">
+      <h1>Empowering <br> Businesses <br> With Innovative <br> IT Solutions</h1>
+      <p>Founded in the heart of Saudi Arabia, Namaa Alsharq is <br> committed to providing cutting-edge software solutions  that<br> enable businesses in the Kingdom to reach their full potential.</p>
+      <button>Show More</button>
+    </div>
+  </div>
     <!-- <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -35,10 +44,21 @@
 
     </b-carousel> -->
   </div>
+    <ourServices></ourServices>
+    <faq></faq>
+</div>
+
+
 </template>
 <script>
+import ourServices from '@/components/Home/OurServices.vue'
+import faq from '@/components/Home/Faqs.vue'
 export default {
   name: 'IndexPage',
+  components:{
+    ourServices,
+    faq
+  },
   data() {
       return {
         slide: 0,

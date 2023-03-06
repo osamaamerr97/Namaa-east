@@ -8,5 +8,18 @@
         "Blog":"Blog",
         "en":"EN",
         "ar":"AR"
+    },
+    "Faqs":{
+        "Faqs":"FAQs",
+        "Question1":"Question1",
+        "Question2":"Question2",
+        "Question3":"Question3",
+        "Question4":"Question4",
+        "Question5":"Question5",
+        "Answer1":"Answer1",
+        "Answer2":"Answer2",
+        "Answer3":"Answer3",
+        "Answer4":"Answer4",
+        "Answer5":"Answer5"
     }
 }
