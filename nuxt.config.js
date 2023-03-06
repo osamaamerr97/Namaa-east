@@ -40,6 +40,8 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/i18n',
+
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -48,6 +50,32 @@ export default {
     baseURL: '/',
   },
 
+  //i18n
+   i18n: {
+    vueI18n: {
+      fallbackLocale: 'en'
+    },
+    locales: [
+      {
+        code: 'en',
+        file: 'en.json',
+        name:'English',
+        dir: 'ltr'
+
+
+        
+      },
+      {
+        code: 'ar',
+        file: 'ar.json',
+        name:'Arabic',
+        dir: 'rtl'
+
+      }
+    ],
+    langDir: 'locales/',
+    defaultLocale: 'ar.json'
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }

@@ -1,7 +1,7 @@
 <template>
 
-<div class="home-header">
-    <b-carousel
+<div id="home-head" class="home-header">
+    <!-- <b-carousel
       id="carousel-1"
       v-model="slide"
       :interval="4000"
@@ -33,7 +33,7 @@
         
       </b-carousel-slide>
 
-    </b-carousel>
+    </b-carousel> -->
   </div>
 </template>
 <script>

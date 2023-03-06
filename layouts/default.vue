@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div :dir="getPageDirection">
       <TheHeader />
         <nuxt-child />
       <TheFooter />
@@ -7,7 +7,15 @@
   </template>
   <script>
   export default {
-    name: 'IndexPage'
+    name: 'IndexPage',
+  computed:{
+    getPageDirection() {
+      if (this.$i18n.locale == "ar") {
+        return "rtl";
+      }
+      return "ltr";
+    },
+  }
   }
   </script>
   
