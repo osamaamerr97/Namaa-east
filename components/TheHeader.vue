@@ -1,5 +1,5 @@
 <template lang="">
-    <div class="nav-container bg-main">
+    <div class="nav-container bg-transparent">
       <div class="container">
         <nav>
             <div class="logo">
@@ -147,7 +147,7 @@ nav{
     background-color: #c38ea0;
     position: absolute;
     bottom: 0;
-    transition:width 3s;
+    transition:width 1s;
     z-index: 999;
     width: 90%;
     left:  5px;

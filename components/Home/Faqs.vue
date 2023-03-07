@@ -19,7 +19,7 @@
                     </b-col>
                     <b-col cols="12" md="5" class="mb-3 mb-md-5" >
                         <div class="faqs-img  d-flex align-items-center h-100">
-                            <h2><span>Our </span> <br> Services</h2>
+                            <img src="~/assets/images/kaitlyn-baker-vZJdYl5JVXY-unsplash@2x.png" class="w-100 h-100" alt="">
                         </div>
                     </b-col>
                 </b-row>
@@ -28,7 +28,10 @@
 </template>
 <script>
 export default {
-    name:"Faqs"    
+    name:"Faqs" ,
+    computed:{
+        
+    }   
 }
 </script>
 <style scoped>

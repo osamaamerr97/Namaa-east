@@ -9,6 +9,32 @@
         "en":"EN",
         "ar":"AR"
     },
+    "HomeHeader":{
+        "Empowering":"Empowering",
+        "Businesses":"Businesses",
+        "With_Innovative":"With Innovative",
+        "IT_Solutions":"IT Solutions",
+        "des1":"Founded in the heart of Saudi Arabia, Namaa Alsharq is",
+        "des2":"committed to providing cutting-edge software solutions  that",
+        "des3":"enable businesses in the Kingdom to reach their full potential.",
+        "Show_More":"Show More"
+    },
+    "OurServices":{
+        "Our":"Our",
+        "Services":"Services",
+        "Application":"Application",
+        "Development":"Development",
+        "Consulting":"Consulting & ",
+        "Advisory":"Advisory",
+        "Design":"Design &",
+        "Production":"Production",
+        "Sales":"Sales & ",
+        "Marketing":"Marketing",
+        "Service":"Service &",
+        "Support":"Support",    
+        "des":"We are experts in iOS and Android native development, as well as React Native."
+
+    },
     "Faqs":{
         "Faqs":"FAQs",
         "Question1":"Question1",
@@ -21,5 +47,25 @@
         "Answer3":"Answer3",
         "Answer4":"Answer4",
         "Answer5":"Answer5"
+    },
+    "Footer":{
+        "Follow_Us":"Follow Us Social Media",
+        "Newsletter":"Newsletter",  
+        "des":"Sign up to get latest",
+        "update":"updates",
+        "Email_address":"Email address",
+        "Company":"Company",  
+        "About_Us":"About Us",  
+        "Contact":"Contact",  
+        "Portfolio":"Portfolio",  
+        "FAQ":"FAQ",  
+        "Blog":"Blog",  
+        "Services":"Services",  
+        "Mobile_Development":"Mobile Development",  
+        "Sales_Marketing":"Sales Marketing",  
+        "Design_Production":"Design Production",  
+        "Web_Development":"Web Development",  
+        "Service_Support":"Service Support"
+    
     }
 }

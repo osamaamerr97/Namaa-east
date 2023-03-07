@@ -9,6 +9,33 @@
         "en":"EN",
         "ar":"عربي"
     },
+    "HomeHeader":{
+        
+        "Empowering":"تمكين الشركات",
+        "Businesses":"من خلال حلول",
+        "With_Innovative":"تقنية",
+        "IT_Solutions":" المعلومات المبتكرة",
+        "des1":"تأسست في قلب المملكة العربية السعودية ، نماء الشرق",
+        "des2":"ملتزمون بتقديم حلول برمجية متطورة",
+        "des3":"تمكين الشركات في المملكة من الوصول إلى إمكاناتها الكاملة.",
+        "Show_More":"المزيد"
+    },
+    "OurServices":{
+        "Our":"عن",
+        "Services":"خدماتنا",
+        "Application":"تطوير",
+        "Development":"تطبيقات",
+        "Consulting":"استشارات  & ",
+        "Advisory":"نصائح",
+        "Design":"تصميم &",
+        "Production":"منتجات",
+        "Sales":"مبيعات & ",
+        "Marketing":"تسويق",
+        "Service":"دعم &",
+        "Support":"فني",    
+        "des":"نحن خبراء في التطوير الأصلي لنظامي التشغيل iOS و Android ، بالإضافة إلى React Native."
+
+    },
     "Faqs":{
         "Faqs":"الاسئلة الشائعة",
         "Question1":"Question1",
@@ -21,5 +48,25 @@
         "Answer3":"Answer3",
         "Answer4":"Answer4",
         "Answer5":"Answer5"
+    },
+    "Footer":{
+        "Follow_Us":"تابعنا علي منصاتنا ",
+        "Newsletter":"أخبارنا",  
+        "des":"سجل لتحصل علي اخر الاخبار",
+        "update":"",
+        "Email_address":"البريد الإلكتروني",
+        "Company":"شركتنا",  
+        "About_Us":"من نحن",  
+        "Contact":"تواصل معنا ",  
+        "Portfolio":"سيرتنا الذاتية",  
+        "FAQ":"الاسئلة الشائعة",  
+        "Blog":"مقالاتنا",  
+        "Services":"خدماتنا",  
+        "Mobile_Development":"تصميم تطبيقات الهاتف",  
+        "Sales_Marketing":"تسويق ومبيعات",  
+        "Design_Production":"تصميم منتجات",  
+        "Web_Development":"تطوير مواقع",  
+        "Service_Support":"خدمات الدعم"
+    
     }
 }
