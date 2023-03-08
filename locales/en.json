@@ -35,6 +35,59 @@
         "des":"We are experts in iOS and Android native development, as well as React Native."
 
     },
+    "OurSolutions":{
+        "Our":"Our",
+        "Solutions":"Solutions",
+        "Section":"",
+        "l1":"1. ERP Modules",
+        "l2":"2. E-Learning",
+        "l3":"3. Service Procurement",
+        "l4":"4. Logistics",
+        "l5":"5. E-Commerce",
+        "l6":"6. Tourism",
+        "l7":"7. Nonprofit",
+        "l8":"8. Entertainment",
+        "l9":"9. Transportation",
+        "l10":"10. Personal Care & Wellness",
+        "l11":"11. Cloud-Based Solutions",
+        "ERP_Modules":"ERP Modules",
+        "E_Learning":"E-Learning",
+        "Service_Procurement":"Service Procurement",
+        "Logistics":"Logistics",
+        "E-Commerce":"E-Commerce",
+        "Tourism":"Tourism",
+        "Nonprofit":"Nonprofit",
+        "Entertainment":"Entertainment",
+        "Transportation":"Transportation",
+        "Personal_Care_&_Wellness":"Personal Care & Wellness",
+        "Cloud_Based_Solutions":"Cloud-Based Solutions",
+        "Accounting_software":"Accounting software",
+        "HR_software":"HR software",
+        "Inventory_management_software":"Inventory management software",
+        "Project_management_software":"Project management software",
+        "Real_estate_ERP":"Real estate ERP",
+        "View_Details":"View Details"
+    },
+
+    "ourPartners":{
+        "our":"Our",
+        "Partners":"Partners",
+        "des1":"Partnering with You for Your Success",
+        "des2":"At Namaa Alsharq, we are more than just a service provider to our partners. We are committed to helping our partners navigate the ever-changing landscape of business and technology to achieve infinite growth."
+    },
+
+    "oueBlogs":{
+        "our_blogs":"Our Blogs",
+        "date":"February 21, 2023",
+        "des1":"The A to Z for Conversion",
+        "des2":"of Android App to iOS App",
+        "View_Details":"View Details"
+
+    },
+    "contact":{
+        "start":"start your",
+        "journey":"journey With us"
+    },
     "Faqs":{
         "Faqs":"FAQs",
         "Question1":"Question1",

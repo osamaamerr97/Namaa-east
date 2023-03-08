@@ -12,7 +12,7 @@
                         <div class="service">
                             <div class="service-title d-flex align-items-center justify-content-between">
                                 <h4>  {{$t(service.titlePart1)}}  <br> {{$t(service.titlePart2)}} </h4>
-                                <img  v-bind:src="'/_nuxt/assets/images/' + service.icon +'.png'" alt="ICON">
+                                <img  :src="service.icon" alt="ICON">
                             </div>
                             <div class="service-description"> {{ $t(service.description)}}</div>
                         </div>
@@ -31,31 +31,31 @@ export default {
                 {
                     titlePart1:"OurServices.Application",
                     titlePart2:"OurServices.Development",
-                    icon:"coding",
+                    icon:"/coding.png",
                     description:"OurServices.des"
                 },
                 {
                     titlePart1:"OurServices.Consulting",
                     titlePart2:"OurServices.Advisory",
-                    icon:"tv",
+                    icon:"/tv.png",
                     description:"OurServices.des"
                 },
                 {
                     titlePart1:"OurServices.Design",
                     titlePart2:"OurServices.Production",
-                    icon:"color-palette",
+                    icon:"/color-palette.png",
                     description:"OurServices.des"
                 },
                 {
                     titlePart1:"OurServices.Sales",
                     titlePart2:"OurServices.Marketing",
-                    icon:"megaphone",
+                    icon:"/megaphone.png",
                     description:"OurServices.des"
                 },
                 {
                     titlePart1:"OurServices.Service",
                     titlePart2:"OurServices.Support",
-                    icon:"headphone",
+                    icon:"/headphone.png",
                     description:"OurServices.des"
                 },
             ]

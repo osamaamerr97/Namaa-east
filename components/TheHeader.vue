@@ -81,6 +81,7 @@ export default {
         this.$i18n.setLocale("ar");
         this.selectedLang= 'ar'
       }
+    
     },
   },
     
